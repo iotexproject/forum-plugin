@@ -1,0 +1,6 @@
+{
+  "name": "Forum-plugin Banner",
+  "about_url": "https://github.com/iotexproject/forum-plugin.git",
+  "license_url": "https://github.com/iotexproject/forum-plugin.git/master/LICENSE",
+  "component": true
+}

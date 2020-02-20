@@ -1,1 +1,2 @@
-# forum-plugin
+# forum - plugin
+
