@@ -2,5 +2,17 @@
   "name": "Forum-plugin Banner",
   "about_url": "https://github.com/iotexproject/forum-plugin.git",
   "license_url": "https://github.com/iotexproject/forum-plugin.git/master/LICENSE",
-  "component": true
+  "component": true,
+  "assets": {
+    "bg": "assets/bg.png",
+    "iconMedium20" : "assets/iconMedium20",
+    "iconMediumMobile" : "assets/iconMediumMobile",
+    "iconReddit20" : "assets/iconReddit20",
+    "iconRedditMobile" : "assets/iconRedditMobile",
+    "iconTelegram20" : "assets/iconTelegram20",
+    "iconTelegramMobile" : "assets/iconTelegramMobile",
+    "iconTwitter20" : "assets/iconTwitter20",
+    "iconTwitterMobile" : "assets/iconTwitterMobile",
+    "logoIotex" : "assets/logoIotex"
+  },
 }
