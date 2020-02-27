@@ -1,0 +1,143 @@
+.banner-box {
+  color: #43c9ba;
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 270px;
+  background-image: url("../../assets/bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #000000; }
+  .banner-box .banner-logo {
+    float: left;
+    width: 24%;
+    text-align: center;
+    padding-top: 27px; }
+  .banner-box a {
+    color: #42c9ba; }
+  .banner-box .section-right {
+    float: left;
+    padding-bottom: 20px;
+    padding-top: 28px; }
+    .banner-box .section-right .x-title {
+      font-size: 38px;
+      line-height: 38px;
+      background-image: linear-gradient(to right bottom, #fad002, #06bfc1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .banner-box .section-right .x-content {
+      font-size: 20px;
+      color: #ffffff;
+      padding: 10px 0;
+      font-weight: lighter; }
+    .banner-box .section-right .header-btn {
+      width: 200px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #43c9ba;
+      color: #ffffff;
+      border-radius: 5px;
+      text-align: center;
+      margin: 15px 0;
+      cursor: pointer; }
+    .banner-box .section-right .header-links {
+      margin-top: 26px;
+      font-size: 14px; }
+      .banner-box .section-right .header-links a {
+        text-decoration: none; }
+      .banner-box .section-right .header-links ul {
+        list-style: none;
+        padding: 5px 0;
+        margin: 0; }
+        .banner-box .section-right .header-links ul li {
+          display: inline;
+          padding-right: 12px;
+          line-height: 18px; }
+      .banner-box .section-right .header-links .about-title {
+        color: #cccccc; }
+      .banner-box .section-right .header-links .about-us {
+        width: 60%;
+        float: left; }
+      .banner-box .section-right .header-links .follow-us {
+        float: left;
+        width: 40%; }
+  .banner-box .icon {
+    float: left;
+    margin: 5px 10px 5px 0;
+    width: 20px;
+    height: 20px; }
+  .banner-box .icon-medium {
+    background-image: url("../../assets/icon-medium-20.png"); }
+  .banner-box .icon-reddit {
+    background-image: url("../../assets/icon-reddit-20.png"); }
+  .banner-box .icon-telegram {
+    background-image: url("../../assets/icon-telegram-20.png"); }
+  .banner-box .icon-twitter {
+    background-image: url("../../assets/icon-twitter-20.png"); }
+
+@media screen and (max-width: 992px) {
+  .banner-box {
+    background-position: left bottom;
+    height: 310px; }
+    .banner-box .icon {
+      width: 40px;
+      height: 40px; }
+    .banner-box .banner-logo img {
+      width: 90px; }
+    .banner-box .section-right {
+      width: 75%; }
+      .banner-box .section-right .x-title {
+        font-size: 30px;
+        line-height: 30px; }
+      .banner-box .section-right .x-content {
+        font-size: 20px; }
+    .banner-box .section-right .header-links .about-us {
+      width: 50%; }
+    .banner-box .section-right .header-links .follow-us {
+      width: 50%; }
+    .banner-box .section-right .header-links ul li {
+      display: inline-block;
+      width: 120px;
+      line-height: 22px; }
+    .banner-box .icon-medium {
+      background-image: url("../../assets/icon-medium-40.png"); }
+    .banner-box .icon-reddit {
+      background-image: url("../../assets/icon-reddit-40.png"); }
+    .banner-box .icon-telegram {
+      background-image: url("../../assets/icon-telegram-40.png"); }
+    .banner-box .icon-twitter {
+      background-image: url("../../assets/icon-twitter-40.png"); } }
+@media screen and (max-width: 600px) {
+  .banner-box {
+    background-position: left bottom;
+    height: 360px; }
+    .banner-box .icon {
+      width: 40px;
+      height: 40px; }
+    .banner-box .banner-logo img {
+      width: 40px; }
+    .banner-box .section-right {
+      width: 75%; }
+      .banner-box .section-right .x-title {
+        font-size: 18px;
+        line-height: 18px; }
+      .banner-box .section-right .x-content {
+        font-size: 16px; }
+    .banner-box .section-right .header-links .about-us {
+      width: 50%; }
+    .banner-box .section-right .header-links .follow-us {
+      width: 50%; }
+    .banner-box .section-right .header-links ul li {
+      display: block;
+      line-height: 22px; }
+    .banner-box .icon-medium {
+      background-image: url("../../assets/icon-medium-40.png"); }
+    .banner-box .icon-reddit {
+      background-image: url("../../assets/icon-reddit-40.png"); }
+    .banner-box .icon-telegram {
+      background-image: url("../../assets/icon-telegram-40.png"); }
+    .banner-box .icon-twitter {
+      background-image: url("../../assets/icon-twitter-40.png"); } }
+
+/*# sourceMappingURL=common.css.map */

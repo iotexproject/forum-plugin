@@ -1,0 +1,196 @@
+$primary-text-color: #43c9ba;
+$banner-background-image: "../../assets/bg.png";
+$background-color: #000000;
+$white: #ffffff;
+$secondary-text-color: #cccccc;
+$link-text-color: #42c9ba;
+$icon-path: "../../assets/icon";
+
+.banner-box {
+  color: $primary-text-color;
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 270px;
+  background-image: url($banner-background-image);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: $background-color;
+
+  .banner-logo {
+    float: left;
+    width: 24%;
+    text-align: center;
+    padding-top:27px;
+  }
+  a {
+    color: $link-text-color;
+  }
+
+  .section-right {
+    float: left;
+    padding-bottom: 20px;
+    padding-top: 28px;
+
+    .x-title {
+      font-size: 38px;
+      line-height: 38px;
+      background-image: linear-gradient(to right bottom, #fad002 , #06bfc1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .x-content {
+      font-size: 20px;
+      color: $white;
+      padding: 10px 0;
+      font-weight: lighter;
+    }
+
+    .header-btn {
+      width: 200px;
+      height: 40px;
+      line-height: 40px;
+      background-color: $primary-text-color;
+      color: $white;
+      border-radius: 5px;
+      text-align: center;
+      margin: 15px 0;
+      cursor: pointer;
+    }
+    .header-links {
+      margin-top: 26px;
+      font-size: 14px;
+      a {
+          text-decoration:none;
+        }
+        ul {
+          // font-size: 12px;
+          list-style:none;
+          padding:5px 0;
+          margin: 0;
+          li {
+            display:inline;
+            padding-right: 12px;
+            line-height: 18px;
+          }
+        }
+      .about-title {
+          color: $secondary-text-color;
+      }
+      .about-us {
+        width: 60%;
+        float: left;
+      }
+      .follow-us {
+        float: left;
+        width: 40%;
+      }
+    }
+  }
+  .icon {
+      float: left;
+      margin: 5px 10px 5px 0;
+      width: 20px;
+      height: 20px;
+  }
+
+  @each $member in medium, reddit, telegram, twitter {
+    .icon-#{$member} {
+      background-image: url("#{$icon-path}-#{$member}-20.png");
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+    .banner-box {
+      background-position: left bottom;
+      height: 310px;
+      .icon {
+        width: 40px;
+        height: 40px;
+      }
+      .banner-logo img{
+        width: 90px;
+      }
+      .section-right {
+        width: 75%;
+        .x-title {
+          font-size: 30px;
+          line-height: 30px;
+        }
+        .x-content {
+          font-size: 20px;
+        }
+      }
+      .section-right {
+        .header-links {
+          .about-us {
+            width: 50%;
+          }
+          .follow-us {
+            width: 50%;
+          }
+          ul li{
+            display: inline-block;
+            width: 120px;
+            line-height: 22px;
+          }
+        }
+      }
+
+      @each $member in medium, reddit, telegram, twitter {
+        .icon-#{$member} {
+          background-image: url("#{$icon-path}-#{$member}-40.png");
+        }
+      }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner-box {
+    background-position: left bottom;
+    height: 360px;
+      .icon {
+        width: 40px;
+        height: 40px;
+      }
+      .banner-logo img{
+        width: 40px;
+      }
+      .section-right {
+        width: 75%;
+        .x-title {
+          font-size: 18px;
+          line-height: 18px;
+        }
+        .x-content {
+          font-size: 16px;
+        }
+      }
+      .section-right {
+        .header-links {
+          .about-us {
+            width: 50%;
+          }
+          .follow-us {
+            width: 50%;
+          }
+          ul li{
+            display: block;
+            line-height: 22px;
+          }
+        }
+      }
+
+      @each $member in medium, reddit, telegram, twitter {
+        .icon-#{$member} {
+          background-image: url("#{$icon-path}-#{$member}-40.png");
+        }
+      }
+  }
+}
+
+
+
