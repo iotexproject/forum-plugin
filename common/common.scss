@@ -68,13 +68,13 @@
     width: 20px;
     height: 20px; }
   .banner-box .icon-medium {
-    background-image: url("../../assets/icon-medium-20.png"); }
+    background-image: url($iconMediumMobile); }
   .banner-box .icon-reddit {
-    background-image: url("../../assets/icon-reddit-20.png"); }
+    background-image: url($iconRedditMobile); }
   .banner-box .icon-telegram {
-    background-image: url("../../assets/icon-telegram-20.png"); }
+    background-image: url($iconTelegramMobile); }
   .banner-box .icon-twitter {
-    background-image: url("../../assets/icon-twitter-20.png"); }
+    background-image: url($iconTwitterMobile); }
 
 @media screen and (max-width: 992px) {
   .banner-box {
@@ -101,13 +101,13 @@
       width: 120px;
       line-height: 22px; }
     .banner-box .icon-medium {
-      background-image: url("../../assets/icon-medium-40.png"); }
+      background-image: url($iconMedium40); }
     .banner-box .icon-reddit {
-      background-image: url("../../assets/icon-reddit-40.png"); }
+      background-image: url($iconReddit40); }
     .banner-box .icon-telegram {
-      background-image: url("../../assets/icon-telegram-40.png"); }
+      background-image: url($iconTelegram40); }
     .banner-box .icon-twitter {
-      background-image: url("../../assets/icon-twitter-40.png"); } }
+      background-image: url($iconTwitter40); } }
 @media screen and (max-width: 600px) {
   .banner-box {
     background-position: left bottom;
@@ -132,12 +132,12 @@
       display: block;
       line-height: 22px; }
     .banner-box .icon-medium {
-      background-image: url("../../assets/icon-medium-40.png"); }
+      background-image: url($iconMedium40); }
     .banner-box .icon-reddit {
-      background-image: url("../../assets/icon-reddit-40.png"); }
+      background-image: url($iconReddit40); }
     .banner-box .icon-telegram {
-      background-image: url("../../assets/icon-telegram-40.png"); }
+      background-image: url($iconTelegram40); }
     .banner-box .icon-twitter {
-      background-image: url("../../assets/icon-twitter-40.png"); } }
+      background-image: url("$iconTwitter40); } }
 
 /*# sourceMappingURL=common.css.map */
