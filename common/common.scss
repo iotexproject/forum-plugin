@@ -70,11 +70,11 @@
   .banner-box .icon-medium {
     background-image: url($iconMediumMobile); }
   .banner-box .icon-reddit {
-    background-image: url("../../assets/icon-reddit-20.png"); }
+    background-image: url($iconRedditMobile); }
   .banner-box .icon-telegram {
-    background-image: url("../../assets/icon-telegram-20.png"); }
+    background-image: url($iconTelegramMobile); }
   .banner-box .icon-twitter {
-    background-image: url("../../assets/icon-twitter-20.png"); }
+    background-image: url($iconTwitterMobile); }
 
 @media screen and (max-width: 992px) {
   .banner-box {
