@@ -4,7 +4,7 @@
   margin-bottom: 20px;
   width: 100%;
   height: 270px;
-  background-image: url($bg);
+  background-image: url("../../assets/bg.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -68,13 +68,13 @@
     width: 20px;
     height: 20px; }
   .banner-box .icon-medium {
-    background-image: url($iconMediumMobile); }
+    background-image: url("../../assets/icon-medium-20.png"); }
   .banner-box .icon-reddit {
-    background-image: url($iconRedditMobile); }
+    background-image: url("../../assets/icon-reddit-20.png"); }
   .banner-box .icon-telegram {
-    background-image: url($iconTelegramMobile); }
+    background-image: url("../../assets/icon-telegram-20.png"); }
   .banner-box .icon-twitter {
-    background-image: url($iconTwitterMobile); }
+    background-image: url("../../assets/icon-twitter-20.png"); }
 
 @media screen and (max-width: 992px) {
   .banner-box {
@@ -101,13 +101,13 @@
       width: 120px;
       line-height: 22px; }
     .banner-box .icon-medium {
-      background-image: url($iconMedium40); }
+      background-image: url("../../assets/icon-medium-40.png"); }
     .banner-box .icon-reddit {
-      background-image: url($iconReddit40); }
+      background-image: url("../../assets/icon-reddit-40.png"); }
     .banner-box .icon-telegram {
-      background-image: url($iconTelegram40); }
+      background-image: url("../../assets/icon-telegram-40.png"); }
     .banner-box .icon-twitter {
-      background-image: url($iconTwitter40); } }
+      background-image: url("../../assets/icon-twitter-40.png"); } }
 @media screen and (max-width: 600px) {
   .banner-box {
     background-position: left bottom;
@@ -132,12 +132,12 @@
       display: block;
       line-height: 22px; }
     .banner-box .icon-medium {
-      background-image: url($iconMedium40); }
+      background-image: url("../../assets/icon-medium-40.png"); }
     .banner-box .icon-reddit {
-      background-image: url($iconReddit40); }
+      background-image: url("../../assets/icon-reddit-40.png"); }
     .banner-box .icon-telegram {
-      background-image: url($iconTelegram40); }
+      background-image: url("../../assets/icon-telegram-40.png"); }
     .banner-box .icon-twitter {
-      background-image: url("$iconTwitter40); } }
+      background-image: url("../../assets/icon-twitter-40.png"); } }
 
 /*# sourceMappingURL=common.css.map */
