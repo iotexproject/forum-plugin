@@ -9,10 +9,10 @@
     "iconMediumMobile": "assets/icon-medium-20.png",
     "iconReddit20": "assets/icon-reddit-20.png",
     "iconRedditMobile": "assets/icon-reddit-20.png",
-    "iconTelegram20": "assets/icon-telegram-20",
-    "iconTelegramMobile": "assets/icon-telegram-20",
-    "iconTwitter20": "assets/icon-twitter-20",
-    "iconTwitterMobile": "assets/icon-twitter-20",
-    "logoIotex": "assets/logoIotex"
+    "iconTelegram20": "assets/icon-telegram-20.png",
+    "iconTelegramMobile": "assets/icon-telegram-20.png",
+    "iconTwitter20": "assets/icon-twitter-20.png",
+    "iconTwitterMobile": "assets/icon-twitter-20.png",
+    "logoIotex": "assets/logoIotex.png"
   }
 }
