@@ -14,6 +14,13 @@
     width: 24%;
     text-align: center;
     padding-top: 27px; }
+    .banner-box .banner-logo .logo-img {
+      display: block;
+      width: 100px;
+      height: 100px;
+      background: url("../../assets/logoIotex.png") no-repeat;
+      background-size: contain;
+      margin: 0 auto; }
   .banner-box a {
     color: #42c9ba; }
   .banner-box .section-right {
@@ -83,8 +90,9 @@
     .banner-box .icon {
       width: 40px;
       height: 40px; }
-    .banner-box .banner-logo img {
-      width: 90px; }
+    .banner-box .banner-logo .logo-img {
+      width: 90px;
+      height: 90px; }
     .banner-box .section-right {
       width: 75%; }
       .banner-box .section-right .x-title {
@@ -115,8 +123,9 @@
     .banner-box .icon {
       width: 40px;
       height: 40px; }
-    .banner-box .banner-logo img {
-      width: 40px; }
+    .banner-box .banner-logo .logo-img {
+      width: 40px;
+      height: 40px; }
     .banner-box .section-right {
       width: 75%; }
       .banner-box .section-right .x-title {

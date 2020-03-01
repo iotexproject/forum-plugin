@@ -5,6 +5,7 @@ $white: #ffffff;
 $secondary-text-color: #cccccc;
 $link-text-color: #42c9ba;
 $icon-path: "../../assets/icon";
+$logo-img: "../../assets/logoIotex.png";
 
 .banner-box {
   color: $primary-text-color;
@@ -23,6 +24,14 @@ $icon-path: "../../assets/icon";
     width: 24%;
     text-align: center;
     padding-top:27px;
+    .logo-img {
+      display: block;
+      width: 100px;
+      height: 100px;
+      background: url($logo-img) no-repeat;
+      background-size: contain;
+      margin: 0 auto;
+    }
   }
   a {
     color: $link-text-color;
@@ -111,8 +120,9 @@ $icon-path: "../../assets/icon";
         width: 40px;
         height: 40px;
       }
-      .banner-logo img{
+      .banner-logo .logo-img{
         width: 90px;
+        height: 90px;
       }
       .section-right {
         width: 75%;
@@ -156,8 +166,9 @@ $icon-path: "../../assets/icon";
         width: 40px;
         height: 40px;
       }
-      .banner-logo img{
+      .banner-logo .logo-img{
         width: 40px;
+        height: 40px;
       }
       .section-right {
         width: 75%;
