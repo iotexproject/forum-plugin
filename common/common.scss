@@ -31,6 +31,20 @@
       color: #ffffff;
       padding: 10px 0;
       font-weight: lighter; }
+      .banner-logo {
+    float: left;
+    width: 24%;
+    text-align: center;
+    padding-top:27px;
+    .logo-img {
+      display: block;
+      width: 100px;
+      height: 100px;
+      background: url($logo-img) no-repeat;
+      background-size: contain;
+      margin: 0 auto;
+    }
+  }
     .banner-box .section-right .header-btn {
       width: 200px;
       height: 40px;
