@@ -1,9 +1,17 @@
+
+@font-face{
+  font-family: ProtoMono;
+  src: url($font);
+}
+
+
 .banner-box {
+  font-family: ProtoMono;
   color: #43c9ba;
   position: relative;
   margin-bottom: 20px;
   width: 100%;
-  height: 270px;
+  overflow: hidden;
   background-image: url($bg);
   background-size: cover;
   background-position: center center;
@@ -16,7 +24,7 @@
     padding-top: 27px; }
     .banner-box .banner-logo .logo-img {
       display: block;
-      width: 100px;
+      width: 200px;
       height: 100px;
       background: url($logoIotex) no-repeat;
       background-size: contain;
@@ -26,6 +34,7 @@
   .banner-box .section-right {
     float: left;
     padding-bottom: 20px;
+    width: 75%;
     padding-top: 28px; }
     .banner-box .section-right .x-title {
       font-size: 38px;
@@ -90,12 +99,12 @@
 @media screen and (max-width: 992px) {
   .banner-box {
     background-position: left bottom;
-    height: 310px; }
+     }
     .banner-box .icon {
       width: 40px;
       height: 40px; }
         .banner-box .banner-logo .logo-img {
-      width: 90px;
+      width: 160px;
       height: 90px; }
     .banner-box .section-right {
       width: 75%; }
@@ -127,15 +136,21 @@
 @media screen and (max-width: 600px) {
   .banner-box {
     background-position: left bottom;
-    height: 360px; }
+   }
+   .banner-box .banner-logo{
+    width: 100%;
+  }
     .banner-box .icon {
       width: 40px;
       height: 40px; }
     .banner-box .banner-logo .logo-img {
-      width: 40px;
+      width: 200px;
       height: 40px; }
     .banner-box .section-right {
-      width: 75%; }
+      width: 100%;
+      padding: 0 16px;
+      padding-top: 24px
+    }
       .banner-box .section-right .x-title {
         font-size: 18px;
         line-height: 18px; }
@@ -158,7 +173,8 @@
       background-image: url($iconTelegram40);
       background-size: contain; }
     .banner-box .icon-twitter {
-      background-image: url($iconTwitter40); } 
+      background-image: url($iconTwitter40); 
       background-size: contain;}
+    }
 
 /*# sourceMappingURL=common.css.map */
