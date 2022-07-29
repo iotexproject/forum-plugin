@@ -13,6 +13,7 @@
     "iconTelegramMobile": "assets/icon-telegram-20.png",
     "iconTwitter40": "assets/icon-twitter-40.png",
     "iconTwitterMobile": "assets/icon-twitter-20.png",
-    "logoIotex": "assets/logoIotex.png"
+    "logoIotex": "assets/logoIotex.png",
+    "font": "assets/fonts/ProtoMono/ProtoMono-Regular.otf"
   }
 }
