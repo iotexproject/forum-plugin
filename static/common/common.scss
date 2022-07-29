@@ -7,6 +7,15 @@ $link-text-color: #42c9ba;
 $icon-path: "../../assets/icon";
 $logo-img: "../../assets/logoIotex.png";
 
+@font-face{
+  font-family: ProtoMono;
+  src: url("../../assets/fonts/ProtoMono/ProtoMono-Regular.otf");
+}
+
+body{
+  font-family: ProtoMono;
+}
+
 .banner-box {
   color: $primary-text-color;
   position: relative;
@@ -26,7 +35,7 @@ $logo-img: "../../assets/logoIotex.png";
     padding-top:27px;
     .logo-img {
       display: block;
-      width: 100px;
+      width: 200px;
       height: 100px;
       background: url($logo-img) no-repeat;
       background-size: contain;
