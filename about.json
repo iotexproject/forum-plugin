@@ -12,7 +12,7 @@
     "iconTwitter40": "assets/icon_twitter.png",
     "iconTwitterMobile": "assets/icon_twitter_2x.png",
     "logoIotex": "assets/logoIotex.png",
-    "font_ProtoMono": "assets/fonts/ProtoMono/ProtoMono-Regular.otf",
-    "font_Quicksand": "assets/fonts/Quicksand/Quicksand-Regular.ttf"
+    "fontProtoMono": "assets/fonts/ProtoMono/ProtoMono-Regular.otf",
+    "fontQuicksand": "assets/fonts/Quicksand/Quicksand-Regular.ttf"
   }
 }
