@@ -1,12 +1,12 @@
 
 @font-face{
   font-family: ProtoMono;
-  src: url($font-ProtoMono);
+  src: url($font_ProtoMono);
 }
 
 @font-face{
   font-family: Quicksand;
-  src: url($font-Quicksand);
+  src: url($font_Quicksand);
 }
 
 
@@ -148,7 +148,7 @@ background: linear-gradient(88deg, #77FE9E -7.44%, #4285F4 61.46%, #EC02D5 110.2
       width: 120px;
       line-height: 22px; }
     .banner-box .icon-medium {
-      background-image: url($iconMedium40); 
+      // background-image: url($iconMedium40); 
       background-size: contain;}
     .banner-box .icon-reddit {
       background-image: url($iconReddit40);
@@ -190,7 +190,7 @@ background: linear-gradient(88deg, #77FE9E -7.44%, #4285F4 61.46%, #EC02D5 110.2
       display: block;
       line-height: 22px; }
     .banner-box .icon-medium {
-      background-image: url($iconMedium40);
+      // background-image: url($iconMedium40);
       background-size: contain; }
     .banner-box .icon-reddit {
       background-image: url($iconReddit40); 
