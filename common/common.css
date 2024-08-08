@@ -1,18 +1,9 @@
 
-@font-face{
-  font-family: ProtoMono;
-  src: url($fontProtoMono);
-}
-
-@font-face{
-  font-family: Quicksand;
-  src: url($fontQuicksand);
-}
 
 
 .banner-box {
-  font-family: ProtoMono;
-  color: #43c9ba;
+  font-family: Arial;
+  color: #fff;
   position: relative;
   margin-bottom: 20px;
   width: 100%;
@@ -34,8 +25,6 @@
       background: url($logoIotex) no-repeat;
       background-size: contain;
       margin: 0 auto; }
-  .banner-box a {
-    color: #42c9ba; }
   .banner-box .section-right {
     float: left;
     padding-bottom: 20px;
@@ -44,21 +33,19 @@
     .banner-box .section-right .x-title {
       font-size: 38px;
       line-height: 38px;
-      font-weight: 600;
-      text-transform:uppercase;
-      /* background-image: linear-gradient(88deg,#77FE9E,#4285F4,#EC02D5);
-       */
-       background-image: linear-gradient(88deg, #77FE9E -7.44%, #4285F4 61.46%, #EC02D5 110.21%);
+      font-weight: 700;
+      color: #ffffff;
+       /* background-image: linear-gradient(88deg, #77FE9E -7.44%, #4285F4 61.46%, #EC02D5 110.21%);
        background-clip: text;
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; 
+      -webkit-text-fill-color: transparent;  */
     }
     .banner-box .section-right .x-content {
       font-size: 20px;
       color: #ffffff;
       padding: 10px 0;
-      font-family: Quicksand;
-      font-weight: lighter; }
+      opacity: 0.8;
+      font-weight: 400; }
     .banner-box .section-right .header-btn {
       display: inline-block;
       height: 37px;
@@ -71,7 +58,7 @@ background: linear-gradient(88deg, #77FE9E -7.44%, #4285F4 61.46%, #EC02D5 110.2
       text-decoration: none;
       color: #ffffff;
       text-align: center;
-      font-weight: 500;
+      font-weight: 700;
       
       cursor: pointer; }
     .banner-box .section-right .header-links {
@@ -88,12 +75,26 @@ background: linear-gradient(88deg, #77FE9E -7.44%, #4285F4 61.46%, #EC02D5 110.2
           padding-right: 12px;
           line-height: 18px; }
       .banner-box .section-right .header-links .about-title {
+        font-weight: 400;
+        color: #fff;
+        opacity: 0.5;
+       }
+
+       .banner-box .section-right .header-links .about-us  .about-arrow{
         font-weight: 600;
-        color: #cccccc; }
+        color: #fff;
+       }
       .banner-box .section-right .header-links .about-us {
         width: 60%;
         float: left; }
         .banner-box .section-right .header-links .about-us a {
+            display: inline-flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 4px;
+        } 
+        .banner-box .section-right .header-links .about-us .about-q {
+          display: inline-block;
           background-image: linear-gradient(88deg, #77FE9E -7.44%, #4285F4 61.46%, #EC02D5 110.21%);
           background-clip: text;
          -webkit-background-clip: text;
@@ -110,7 +111,7 @@ background: linear-gradient(88deg, #77FE9E -7.44%, #4285F4 61.46%, #EC02D5 110.2
     width: 20px;
     height: 20px; }
   .banner-box .icon-medium {
-    // background-image: url($iconMediumMobile); 
+    /* // background-image: url($iconMediumMobile);  */
     background-size: contain;}
   .banner-box .icon-reddit {
     background-image: url($iconRedditMobile);
@@ -148,7 +149,7 @@ background: linear-gradient(88deg, #77FE9E -7.44%, #4285F4 61.46%, #EC02D5 110.2
       width: 120px;
       line-height: 22px; }
     .banner-box .icon-medium {
-      // background-image: url($iconMedium40); 
+      /* background-image: url($iconMedium40);  */
       background-size: contain;}
     .banner-box .icon-reddit {
       background-image: url($iconReddit40);
@@ -190,7 +191,7 @@ background: linear-gradient(88deg, #77FE9E -7.44%, #4285F4 61.46%, #EC02D5 110.2
       display: block;
       line-height: 22px; }
     .banner-box .icon-medium {
-      // background-image: url($iconMedium40);
+      /* // background-image: url($iconMedium40); */
       background-size: contain; }
     .banner-box .icon-reddit {
       background-image: url($iconReddit40); 
