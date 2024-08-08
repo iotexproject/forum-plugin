@@ -5,15 +5,11 @@
   "component": true,
   "assets": {
     "bg": "assets/bg.png",
-    "iconMedium40": "assets/icon-medium-40.png",
-    "iconMediumMobile": "assets/icon-medium-20.png",
-    "iconReddit40": "assets/icon-reddit-40.png",
-    "iconRedditMobile": "assets/icon-reddit-20.png",
-    "iconTelegram40": "assets/icon-telegram-40.png",
-    "iconTelegramMobile": "assets/icon-telegram-20.png",
-    "iconTwitter40": "assets/icon-twitter-40.png",
-    "iconTwitterMobile": "assets/icon-twitter-20.png",
-    "logoIotex": "assets/logoIotex.png",
-    "font": "assets/fonts/ProtoMono/ProtoMono-Regular.otf"
+    "iconReddit40": "assets/icon_reddit.png",
+    "iconRedditMobile": "assets/icon_reddit_2x.png",
+    "iconTelegram40": "assets/icon_telegram.png",
+    "iconTelegramMobile": "assets/icon_telegram_2x.png",
+    "iconTwitter40": "assets/icon_twitter.png",
+    "iconTwitterMobile": "assets/icon_twitter_2x.png"
   }
 }
