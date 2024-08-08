@@ -1,7 +1,7 @@
 {
   "name": "Forum-plugin Banner",
-  "about_url": "https://github.com/zongzheng123/forum-plugin.git",
-  "license_url": "https://github.com/zongzheng123/forum-plugin.git/master/LICENSE",
+  "about_url": "https://github.com/iotexproject/forum-plugin.git",
+  "license_url": "https://github.com/iotexproject/forum-plugin.git/master/LICENSE",
   "component": true,
   "assets": {
     "bg": "assets/bg.png",
