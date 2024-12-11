@@ -10,6 +10,7 @@
     "iconTelegram40": "assets/icon_telegram.png",
     "iconTelegramMobile": "assets/icon_telegram_2x.png",
     "iconTwitter40": "assets/icon_twitter.png",
-    "iconTwitterMobile": "assets/icon_twitter_2x.png"
+    "iconTwitterMobile": "assets/icon_twitter_2x.png",
+    "goat": "assets/goat.png"
   }
 }
